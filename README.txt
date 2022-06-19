@@ -20,4 +20,5 @@ Validation set -> 20%
     Benefit of using grayscale image will be that our input size will be reduced three times )
 
 4)  Now we train our model on batches of size 64.
-    While loading each batch we apply preprocessing (conversion of image to grayscale, resizing images to have same size for all of them, normalization )
+    While loading each batch we apply preprocessing 
+    (conversion of image to grayscale, resizing images to have same size for all of them, normalization )
