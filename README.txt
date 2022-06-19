@@ -16,8 +16,9 @@ Validation set -> 20%
 
 2)  After that we Split the data into training and validation set (80% training & 20% Validation)
 
-3)  Initialize our CNN model which takes grayscale images of size 256*256 (In our data, color was not important that's why we use grayscale. 
-    Benefit of using grayscale image will be that our input size will be reduced three times )
+3)  Initialize our CNN model which takes grayscale images of size 256*256 (In our data, 
+    color was not important that's why we use grayscale. Benefit of using grayscale 
+    image will be that our input size will be reduced three times )
 
 4)  Now we train our model on batches of size 64.
     While loading each batch we apply preprocessing 
